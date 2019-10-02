@@ -31,7 +31,11 @@ Table of contents
 @import url('../../../../../css-1.css');
 */
 
-
+/* modal */
+.modal-content {
+  background-image: linear-gradient(120deg, #c00d05 70%, #fc3930);
+  color: white;
+}
 
 #loading {
   position: fixed;
@@ -4209,7 +4213,7 @@ blockquote.blockquote-left .parson {
 .p-35px-l {padding-left:35px}
 .p-40px-l {padding-left:40px}
 .p-45px-l {padding-left:45px}
-.p-50px-l {margin-top: -70px !important;;padding-left:50px}
+.p-50px-l {z-index: -1; margin-top: -82px !important;;padding-left:50px}
 .p-55px-l {padding-left:55px}
 .p-60px-l {padding-left:60px}
 .p-65px-l {padding-left:65px}
